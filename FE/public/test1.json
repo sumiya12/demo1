@@ -1,0 +1,562 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "name": "Egshiglen",
+      "color": "#570497",
+      "description": "full",
+      "scores": [
+        {
+          "date": "2021",
+          "quarter": 4,
+          "sprint": 1,
+          "point": 1
+        },
+        {
+          "date": "2021",
+          "quarter": 4,
+          "sprint": 2,
+          "point": 0.2
+        },
+        {
+          "date": "2021",
+          "quarter": 4,
+          "sprint": 3,
+          "point": 2.5
+        },
+        {
+          "date": "2021",
+          "quarter": 4,
+          "sprint": 4,
+          "point": 1
+        },
+        {
+          "date": "2021",
+          "quarter": 4,
+          "sprint": 5,
+          "point": 0.5
+        },
+        {
+          "date": "2022",
+          "quarter": 1,
+          "sprint": 1,
+          "point": 0
+        },
+        {
+          "date": "2022",
+          "quarter": 1,
+          "sprint": 2,
+          "point": 0.5
+        },
+        {
+          "date": "2022",
+          "quarter": 1,
+          "sprint": 3,
+          "point": 0.5
+        },
+        {
+          "date": "2022",
+          "quarter": 1,
+          "sprint": 4,
+          "point": 2
+        },
+        {
+          "date": "2022",
+          "quarter": 1,
+          "sprint": 5,
+          "point": 1.75
+        },
+        {
+          "date": "2022",
+          "quarter": 2,
+          "sprint": 1,
+          "point": 0
+        },
+        {
+          "date": "2022",
+          "quarter": 2,
+          "sprint": 2,
+          "point": 0
+        },
+        {
+          "date": "2022",
+          "quarter": 2,
+          "sprint": 3,
+          "point": 0
+        },
+        {
+          "date": "2022",
+          "quarter": 2,
+          "sprint": 4,
+          "point": 0
+        },
+        {
+          "date": "2022",
+          "quarter": 2,
+          "sprint": 5,
+          "point": 0
+        },
+        {
+          "date": "2022",
+          "quarter": 2,
+          "sprint": 6,
+          "point": 0
+        },
+        {
+          "date": "2022",
+          "quarter": 2,
+          "sprint": 7,
+          "point": 0
+        },
+        
+        {
+          "date": "2022",
+          "quarter": 3,
+          "sprint": 1,
+          "point": 0
+        },
+        {
+          "date": "2022",
+          "quarter": 3,
+          "sprint": 2,
+          "point": 0
+        },
+        {
+          "date": "2022",
+          "quarter": 3,
+          "sprint": 3,
+          "point": 0
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Sodsaikhan",
+      "color": "#53ce46",
+      "description": "full",
+      "scores": [
+        {
+          "date": "2021",
+          "quarter": 4,
+          "sprint": 1,
+          "point": 1
+        },
+        {
+          "date": "2021",
+          "quarter": 4,
+          "sprint": 2,
+          "point": 0.25
+        },
+        {
+          "date": "2021",
+          "quarter": 4,
+          "sprint": 3,
+          "point": 1.5
+        },
+        {
+          "date": "2021",
+          "quarter": 4,
+          "sprint": 4,
+          "point": 1.75
+        },
+        {
+          "date": "2021",
+          "quarter": 4,
+          "sprint": 5,
+          "point": 0
+        },
+        {
+          "date": "2022",
+          "quarter": 1,
+          "sprint": 1,
+          "point": 1.25
+        },
+        {
+          "date": "2022",
+          "quarter": 1,
+          "sprint": 2,
+          "point": 2
+        },
+        {
+          "date": "2022",
+          "quarter": 1,
+          "sprint": 3,
+          "point": 0
+        },
+        {
+          "date": "2022",
+          "quarter": 1,
+          "sprint": 4,
+          "point": 1.5
+        },
+        {
+          "date": "2022",
+          "quarter": 1,
+          "sprint": 5,
+          "point": 0.5
+        },
+        {
+          "date": "2022",
+          "quarter": 2,
+          "sprint": 1,
+          "point": 3.25
+        },
+        {
+          "date": "2022",
+          "quarter": 2,
+          "sprint": 2,
+          "point": 1.25
+        },
+        {
+          "date": "2022",
+          "quarter": 2,
+          "sprint": 3,
+          "point": 2
+        },
+        {
+          "date": "2022",
+          "quarter": 2,
+          "sprint": 4,
+          "point": 4.5
+        },
+        {
+          "date": "2022",
+          "quarter": 2,
+          "sprint": 5,
+          "point": 3
+        },
+        {
+          "date": "2022",
+          "quarter": 2,
+          "sprint": 6,
+          "point": 2.25
+        },
+        {
+          "date": "2022",
+          "quarter": 2,
+          "sprint": 7,
+          "point": 0.5
+        },
+        {
+          "date": "2022",
+          "quarter": 3,
+          "sprint": 1,
+          "point": 1.25
+        },
+        {
+          "date": "2022",
+          "quarter": 3,
+          "sprint": 2,
+          "point": 3.25
+        },
+        {
+          "date": "2022",
+          "quarter": 3,
+          "sprint": 3,
+          "point": 1.25
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Uyanga",
+      "description": "Half",
+      "color": "#eac003",
+      "scores": [
+        {
+          "date": "2021",
+          "quarter": 4,
+          "sprint": 1,
+          "point": 0
+        },
+        {
+          "date": "2021",
+          "quarter": 4,
+          "sprint": 2,
+          "point": 0.5
+        },
+        {
+          "date": "2021",
+          "quarter": 4,
+          "sprint": 3,
+          "point": 0.5
+        },
+        {
+          "date": "2021",
+          "quarter": 4,
+          "sprint": 4,
+          "point": 1.25
+        },
+        {
+          "date": "2021",
+          "quarter": 4,
+          "sprint": 5,
+          "point": 1
+        },
+        {
+          "date": "2022",
+          "quarter": 1,
+          "sprint": 1,
+          "point": 4
+        },
+        {
+          "date": "2022",
+          "quarter": 1,
+          "sprint": 2,
+          "point": 3.5
+        },
+        {
+          "date": "2022",
+          "quarter": 1,
+          "sprint": 3,
+          "point": 3.5
+        },
+        {
+          "date": "2022",
+          "quarter": 1,
+          "sprint": 4,
+          "point": 5
+        },
+        {
+          "date": "2022",
+          "quarter": 1,
+          "sprint": 5,
+          "point": 1
+        },
+        {
+          "date": "2022",
+          "quarter": 2,
+          "sprint": 1,
+          "point": 1.5
+        },
+        {
+          "date": "2022",
+          "quarter": 2,
+          "sprint": 2,
+          "point": 0
+        },
+        {
+          "date": "2022",
+          "quarter": 2,
+          "sprint": 3,
+          "point": 3.25
+        },
+        {
+          "date": "2022",
+          "quarter": 2,
+          "sprint": 4,
+          "point": 3.5
+        },
+        {
+          "date": "2022",
+          "quarter": 2,
+          "sprint": 5,
+          "point": 3.25
+        },
+        {
+          "date": "2022",
+          "quarter": 2,
+          "sprint": 6,
+          "point": 3.75
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Erdenetulga",
+      "description": "Half",
+      "color": "#eda05e",
+      "scores": [
+        {
+          "date": "2021",
+          "quarter": 4,
+          "sprint": 1,
+          "point": null
+        },
+        {
+          "date": "2021",
+          "quarter": 4,
+          "sprint": 2,
+          "point": null
+        },
+        {
+          "date": "2021",
+          "quarter": 4,
+          "sprint": 3,
+          "point": null
+        },
+        {
+          "date": "2021",
+          "quarter": 4,
+          "sprint": 4,
+          "point": null
+        },
+        {
+          "date": "2021",
+          "quarter": 4,
+          "sprint": 5,
+          "point": 4
+        },
+        {
+          "date": "2022",
+          "quarter": 1,
+          "sprint": 1,
+          "point": 3
+        },
+        {
+          "date": "2022",
+          "quarter": 1,
+          "sprint": 2,
+          "point": 3
+        },
+        {
+          "date": "2022",
+          "quarter": 1,
+          "sprint": 3,
+          "point": 0
+        },
+        {
+          "date": "2022",
+          "quarter": 1,
+          "sprint": 4,
+          "point": 0
+        },
+        {
+          "date": "2022",
+          "quarter": 1,
+          "sprint": 5,
+          "point": 1.5
+        },
+        {
+          "date": "2022",
+          "quarter": 2,
+          "sprint": 1,
+          "point": 0
+        },
+        {
+          "date": "2022",
+          "quarter": 2,
+          "sprint": 2,
+          "point": 11
+        },
+        {
+          "date": "2022",
+          "quarter": 2,
+          "sprint": 3,
+          "point": 0
+        },
+        {
+          "date": "2022",
+          "quarter": 2,
+          "sprint": 4,
+          "point": 4
+        },
+        {
+          "date": "2022",
+          "quarter": 2,
+          "sprint": 5,
+          "point": 0
+        },
+        {
+          "date": "2022",
+          "quarter": 2,
+          "sprint": 6,
+          "point": 1.5
+        },
+        {
+          "date": "2022",
+          "quarter": 2,
+          "sprint": 6,
+          "point": 0
+        },
+        {
+          "date": "2022",
+          "quarter": 2,
+          "sprint": 6,
+          "point": 4
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Munkh",
+      "description": "Half",
+      "color": "#28a176",
+      "scores": [
+        {
+          "date": "2021",
+          "quarter": 4,
+          "sprint": 1,
+          "point": null
+        },
+        {
+          "date": "2021",
+          "quarter": 4,
+          "sprint": 2,
+          "point": null
+        },
+        {
+          "date": "2021",
+          "quarter": 4,
+          "sprint": 3,
+          "point": null
+        },
+        {
+          "date": "2021",
+          "quarter": 4,
+          "sprint": 4,
+          "point": null
+        },
+        {
+          "date": "2021",
+          "quarter": 4,
+          "sprint": 5,
+          "point": 3.5
+        },
+        {
+          "date": "2022",
+          "quarter": 1,
+          "sprint": 1,
+          "point": 4
+        },
+        {
+          "date": "2022",
+          "quarter": 1,
+          "sprint": 2,
+          "point": 2.5
+        },
+        {
+          "date": "2022",
+          "quarter": 1,
+          "sprint": 3,
+          "point": 3
+        },
+        {
+          "date": "2022",
+          "quarter": 1,
+          "sprint": 4,
+          "point": 1
+        },
+        {
+          "date": "2022",
+          "quarter": 1,
+          "sprint": 5,
+          "point": 1.5
+        },
+        {
+          "date": "2022",
+          "quarter": 2,
+          "sprint": 1,
+          "point": 0
+        },
+        {
+          "date": "2022",
+          "quarter": 2,
+          "sprint": 2,
+          "point": 0
+        }
+      ]
+    }
+  ]
+}
+
