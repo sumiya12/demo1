@@ -13,16 +13,14 @@ function App() {
       setData(result.data.data);
     } catch (error) {}
   };
-  const handleFinish = (newData: PersonData[]) => {
-    setData([...newData]);
+  const handleFinish = () => {
+    fetcher();
   };
 
   useEffect(() => {
     if (data.length === 0) fetcher();
   }, []);
 
-
-  
   return (
     <div>
       {data?.length ? (
@@ -37,8 +35,8 @@ function App() {
           }}
         >
           <div>
-            <ListPeople datas={data} onFinish={handleFinish} />
             <AddPeople onFinish={handleFinish} datas={data} />
+            <ListPeople datas={data} onFinish={handleFinish} />
           </div>
 
           <LineChart datas={data} />

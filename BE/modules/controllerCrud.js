@@ -43,7 +43,9 @@ const createbyid = async (req, res) => {
 const update = async (req, res) => {
   try {
     const demo = await service.update(req);
-    res.status(200).json({ data: demo, success: "Succesfull", message: "Succesfull" });
+    res
+      .status(200)
+      .json({ data: demo, success: "Succesfull", message: "Succesfull" });
   } catch (error) {
     res.json({ data: error });
   }
@@ -65,5 +67,5 @@ module.exports = {
   update,
   deletes,
   getById,
-  createbyid
+  createbyid,
 };

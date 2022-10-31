@@ -4,7 +4,7 @@ import axios from "axios";
 
 interface Props {
   datas: PersonData[];
-  onFinish: (newDatas: PersonData[]) => void;
+  onFinish: () => void;
 }
 
 const AddPeople: React.FunctionComponent<Props> = ({ datas, onFinish }) => {
@@ -30,7 +30,7 @@ const AddPeople: React.FunctionComponent<Props> = ({ datas, onFinish }) => {
       })
       .then((response: any) => {
         if (response.status === 200) {
-          window.location.reload();
+          onFinish()
         }
       });
   };
@@ -48,7 +48,7 @@ const AddPeople: React.FunctionComponent<Props> = ({ datas, onFinish }) => {
           flexDirection: "column",
         }}
       >
-        <h1>Add people</h1>
+        <h1>Add People</h1>
         <form
           onSubmit={handleSubmit}
           action="submit"
@@ -58,14 +58,21 @@ const AddPeople: React.FunctionComponent<Props> = ({ datas, onFinish }) => {
             alignItems: "center",
             padding: "20px",
           }}
-        >
+        ><label htmlFor="">Name</label>
           <input
             type="text"
             name="name"
             placeholder="Name"
-            style={{ height: "20px", margin: "10px" }}
+            style={{ width: "180px", height: "20px", margin: "10px" }}
           />
-          <select
+          <label htmlFor="">Select Color</label>
+          <input
+            type="color"
+            id="favcolor"
+            name="color"
+            style={{ width: "180px", height: "20px", margin: "10px" }}
+          />
+          {/* <select
             name="color"
             defaultValue="color"
             style={{ width: "180px", height: "20px", margin: "10px" }}
@@ -76,16 +83,16 @@ const AddPeople: React.FunctionComponent<Props> = ({ datas, onFinish }) => {
             <option value="green">yellow</option>
             <option value="green">purple</option>
             <option value="green">black</option>
-          </select>
+          </select> */}
+          <label htmlFor="">Select Description</label>
           <select
             name="description"
             defaultValue="description"
             style={{ width: "180px", height: "20px", margin: "10px" }}
           >
-            <option value="full">full</option>
-            <option value="half">half</option>
+            <option value="full">Full</option>
+            <option value="half">Half</option>
           </select>
-
           <button type="submit">Submit</button>
         </form>
       </div>

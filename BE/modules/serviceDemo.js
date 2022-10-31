@@ -3,28 +3,21 @@ const Scores = require("./model.demo");
 const mongoose = require("mongoose");
 
 const create = async (req) => {
-  console.log(req.body);
   const demo = new Demo(req.body);
   return demo.save();
 };
 const createbyid = async (req) => {
   const { id } = req.params;
   const { point, date, quarter, sprint } = req.body;
-  const score = {
+  const scores = {
     point: point,
     date: date,
     quarter: quarter,
     sprint: sprint,
   };
-  const s = Scores.create(score);
+  await Demo.updateOne({ _id: id }, { $push: { scores: scores } });
 
-  const demo = await Demo.findOneAndUpdate(
-    id,
-    { $setOnInsert: s },
-    { new: true }
-  );
-  console.log(demo);
-  return demo.save();
+  return Demo.findById(id);
 };
 
 const get = async (req) => {
@@ -38,7 +31,7 @@ const getBy = async (req) => {
 
 const update = async (req) => {
   const { id } = req.query;
-  console.log(id);
+
   await Demo.findByIdAndUpdate(id, req.body);
   return Demo.findById(id);
 };
